@@ -10,3 +10,4 @@ urlpatterns = [
     path('status/', views.approvereject),
  
 ] 
+ 

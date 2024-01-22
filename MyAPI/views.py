@@ -22,7 +22,7 @@ class ApprovalsView(viewsets.ModelViewSet):
 	serializer_class = approvalsSerializers
 		
 @api_view(["POST"])
-def approvereject(request):
+def approvereject(request): 
 	try:
 		mdl=joblib.load("/Users/sahityasehgal/Documents/Coding/DjangoApiTutorial/DjangoAPI/MyAPI/loan_model.pkl")
 		#mydata=pd.read_excel('/Users/sahityasehgal/Documents/Coding/bankloan/test.xlsx')

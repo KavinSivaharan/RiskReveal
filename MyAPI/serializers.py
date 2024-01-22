@@ -4,5 +4,5 @@ from . models import approvals
 class approvalsSerializers(serializers.ModelSerializer):
 	class Meta:
 		model=approvals
-		fields='__all__'
+		fields='__all__' 
 

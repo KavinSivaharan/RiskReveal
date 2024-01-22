@@ -5,4 +5,4 @@ class MyForm(ModelForm):
 	class Meta:
 		model=approvals
 		fields = '__all__'
-		#exclude = 'firstname'
+		#exclude = 'firstname' 

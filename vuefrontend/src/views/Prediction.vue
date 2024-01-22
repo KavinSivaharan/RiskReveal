@@ -21,7 +21,7 @@
             <input
               class="form-control"
               v-model.trim="irisdata.sepal_width"
-              type="number"
+              type="number" 
               id="sepal_width"
             />
           </div>

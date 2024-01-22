@@ -8,4 +8,4 @@ urlpatterns = [
     path('', include('MyAPI.urls')),
     
 
-]
+] 
